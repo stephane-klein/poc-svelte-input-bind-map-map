@@ -74,7 +74,7 @@
                 <td>
                     <input
                         type="text"
-                        bind:value={v}
+                        bind:value={v}  // <== this problem is here
                         style="width: 4em"
                     />
                 </td>
